@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Estatísticas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script></script>
     <link rel="stylesheet" href="./dashboard.css">
     
@@ -14,16 +14,15 @@
 
     <header>
       <ul>
-        <a href="index.html"><li>Home</li></a>
-        <a href="contato.html"><li>Contato</li></a>
+        <a href="perfil.html"><li>Perfil</li></a>
+        <a href="#contato"><li>Contato</li></a>
         <li>|</li>
         <a href="index.html"><li>Sair</li></a>
       </ul>
     </header>
-               
-     
 
 <!-- DASHBOARD -->
+
     <div>
         <canvas id="myChart" style="position: relative; height:40vh; width:40vw"></canvas>
     </div>
@@ -33,8 +32,8 @@
     </div>
 
 <!-- FOOTER -->
-    
-     <div class="footer">
+
+     <div class="footer" id="contato">
         <div class="contato">
             <h3>Contatos</h3>
             <p><img src="./assets/facebook.png" width="15px"> @Call_students</p>
@@ -57,6 +56,7 @@
         'Crash',
         'Rust',
         'Hijacked',
+        'Nuketown',
     ];
   
     const data = { 
@@ -65,7 +65,7 @@
         label: 'Mapas mais usados',
         backgroundColor: 'rgb(0, 255, 0)',
         borderColor: 'rgb(0, 255, 0)',
-        data: [80, 70, 35, 60, 95, 10],
+        data: [80, 70, 35, 60, 55, 10, 95],
       }
     ]
     };
@@ -76,6 +76,7 @@
         'Precisão',
         'Pistola',
         'Escopeta',
+        'Corpo a Corpo',
     ];
   
     const data2 = { 
@@ -84,7 +85,7 @@
         label: 'Armas mais usadas',
         backgroundColor: 'rgb(0, 0, 255)',
         borderColor: 'rgb(0, 0, 255)',
-        data: [20, 95, 70, 10, 35, 50],
+        data: [20, 95, 70, 10, 35, 50, 10],
       }
     ]
     };

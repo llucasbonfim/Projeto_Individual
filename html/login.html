@@ -15,7 +15,7 @@
             <a href="index.html"><li>Home</li></a>
             <a href="mapas.html"><li>Mapas</li></a>
             <a href="armas.html"><li>Armas</li></a>
-            <a href="contato.html"><li>Contato</li></a>
+            <a href="#contato"><li>Contato</li></a>
             <li>|</li>
             <a href="cadastro.html"><li>Cadastre-se</li></a>
         </ul>
@@ -37,15 +37,15 @@
                 <input type="password" id="senha" placeholder="************">
             </div>
         </div>
-            <br><button>Entrar</button>
+            <br><button onclick="entrar()">Entrar</button>
             <img src="./assets/ops.png" width="200px" alt="">
         </div>
     </div>
 
-      <!-- FOOTER -->
+<!-- FOOTER -->
     
       <div class="footer">
-        <div class="contato">
+        <div class="contato" id="contato">
             <img src="./assets/oni1.webp" width="50px" alt="">
             <h3>Contatos</h3>
             <p><img src="./assets/facebook.png" width="15px"> @Call_students</p>
@@ -61,3 +61,13 @@
     </div>
 </body>
 </html>
+<script>
+    function entrar() {
+        var email = email.value;
+        var senha = senha.value;
+
+        if (email == "" || senha == "") {
+            alert(`Preencha todos os campos!`)
+        }
+    }
+</script>
