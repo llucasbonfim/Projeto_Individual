@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script></script>
+    <link rel="stylesheet" href="./dashboard.css">
+    
+</head>
+<body style="display: flex;">
+<!-- HEADER -->
+
+    <header>
+      <ul>
+        <a href="perfil.html"><li>Perfil</li></a>
+        <a href="#contato"><li>Contato</li></a>
+        <li>|</li>
+        <a href="index.html"><li>Sair</li></a>
+      </ul>
+    </header>
+
+<!-- DASHBOARD -->
+
+    <div>
+        <canvas id="myChart" style="position: relative; height:40vh; width:40vw"></canvas>
+    </div>
+
+    <div>
+        <canvas id="myChart2" style="position: relative; height:40vh; width:40vw"></canvas>
+    </div>
+
+<!-- FOOTER -->
+
+     <div class="footer" id="contato">
+        <div class="contato">
+          <img src="./assets/oni1.webp" width="50px" alt="">
+            <h3>Contatos</h3>
+            <p><img src="./assets/facebook.png" width="15px"> @Call_students</p>
+            <p><img src="./assets/instagram (1).png" width="15px"> @Call_students</p>
+            <p><img src="./assets/twitter.png" width="15px"> @Call_students</p>
+            <p><img src="./assets/logotipo-do-linkedin.png" width="15px"> @Call_students</p>
+            <p><img src="./assets/whatsapp.png" width="15px"> (11) 94002 - 8922</p>
+            <p><img src="./assets/o-email.png" width="15px"> Call_students@support.com</p>
+        </div>
+        <div class="container">
+            <p>Desenvolvido por um aluno SPtecher - &copy; Copyright</p>
+        </div>
+    </div>
+
+</body>
+<script>
+    const labels = [ 
+        'Shipment',
+        'Shoot House',
+        'Crash',
+        'Rust',
+        'Hijacked',
+        'Nuketown',
+    ];
+  
+    const data = { 
+      labels: labels,
+      datasets: [{
+        label: 'Mapas mais usados',
+        backgroundColor: 'rgb(0, 255, 0)',
+        borderColor: 'rgb(0, 255, 0)',
+        data: [80, 70, 35, 60, 55, 10, 95],
+      }
+    ]
+    };
+
+    const labels2 = [ 
+        'Assault',
+        'SMG',
+        'Precisão',
+        'Pistola',
+        'Escopeta',
+        'Corpo a Corpo',
+    ];
+  
+    const data2 = { 
+      labels: labels2,
+      datasets: [{
+        label: 'Armas mais usadas',
+        backgroundColor: 'rgb(0, 0, 255)',
+        borderColor: 'rgb(0, 0, 255)',
+        data: [20, 95, 70, 10, 35, 50, 10],
+      }
+    ]
+    };
+  
+    const config1 = {
+      type: 'bar',
+      data: data,
+      options: {}
+    };
+
+    const config2 = {
+      type: 'bar',
+      data: data2,
+      options: {}
+    };
+  </script>
+
+    <script>
+    const myChart = new Chart(
+      document.getElementById('myChart'),
+      config1
+    );
+
+    const myChart2 = new Chart(
+      document.getElementById('myChart2'),
+      config2
+    );
+    </script>
+</html>
