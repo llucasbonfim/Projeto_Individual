@@ -16,9 +16,4 @@ header {
 header li {
     display: inline-block;
     margin: 20px;
-} 
-
-.banner {
-    display: flex;
-    justify-content: flex-start;
 }
