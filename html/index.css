@@ -18,12 +18,16 @@ header li {
     margin: 20px;
 }
 
+header ul a li {
+    color: black;
+}
+
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 50px;
-    background-color: gray;
+    background-color: #343A40;
 }
 
 .divisao {
@@ -39,6 +43,7 @@ header li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #343A40;
 }
 
 .titulo1 {
@@ -58,11 +63,7 @@ header li {
     width: 400px;
     height: 550px;
     border-radius: 10px;
-    background-color: aqua;
-}
-
-.caixa1 :hover {
-    transform: scale(1.1);
+    background-color: white;
 }
 
 .shoot {
@@ -74,7 +75,7 @@ header li {
     width: 400px;
     height: 550px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: white;
 }
 
 .caixa img {
@@ -131,3 +132,29 @@ header li {
     width: 100%;
 }
 
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.contato {
+    justify-content: flex-end;
+}
+
+.divcontato {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social1 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
