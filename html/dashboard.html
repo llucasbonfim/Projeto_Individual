@@ -7,6 +7,7 @@
     <title>Estatísticas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script></script>
     <link rel="stylesheet" href="./dashboard.css">
+    <link rel="icon" type="imagem/png" href="../assets/imgprincipal.png">
     
 </head>
 <body style="display: flex;">
@@ -30,6 +31,10 @@
     <div>
         <canvas id="myChart2" style="position: relative; height:40vh; width:40vw"></canvas>
     </div>
+
+    <div>
+      <canvas id="myChart3" style="position: relative; height:40vh; width:40vw"></canvas>
+  </div>
 
 <!-- FOOTER -->
 
@@ -91,6 +96,25 @@
     ]
     };
   
+    const labels3 = [ 
+        'Price',
+        'Ghost',
+        'Soap',
+        'Rose',
+        'Snoop Dogg',
+        'Mara',
+    ];
+  
+    const data3 = { 
+      labels: labels3,
+      datasets: [{
+        label: 'Operadores mais usados',
+        backgroundColor: 'rgb(255, 0, 0)',
+        borderColor: 'rgb(255, 0, 0)',
+        data: [25, 60, 70, 15, 100, 45],
+      }
+    ]
+    };
     const config1 = {
       type: 'bar',
       data: data,
@@ -100,6 +124,12 @@
     const config2 = {
       type: 'bar',
       data: data2,
+      options: {}
+    };
+
+    const config3 = {
+      type: 'bar',
+      data: data3,
       options: {}
     };
   </script>
@@ -113,6 +143,11 @@
     const myChart2 = new Chart(
       document.getElementById('myChart2'),
       config2
+    );
+
+    const myChart3 = new Chart(
+      document.getElementById('myChart3'),
+      config3
     );
     </script>
 </html>
