@@ -1,7 +1,7 @@
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -13,8 +13,73 @@ header {
     align-items: center;
 }
 
+header img {
+    left: 60%;
+    top: 4700px;
+}
+
 header li {
     display: inline-block;
     margin: 20px;
 }
 
+header ul a li {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.footer .contato {
+    justify-content: flex-end;
+    width: 100px;
+    height: 10vh;
+    position: absolute;
+    left: 100px;
+    top: 4670px;
+}
+
+.footer .divcontato {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 80%;
+    top: 4660px;
+    font-size: x-large;
+}
+
+.footer .social3 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 80%;
+    top: 4700px;
+}
+
+.footer .social2 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 70%;
+    top: 4700px;
+}
+
+.footer .social1 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 60%;
+    top: 4700px;
+}
+
+.footer .final p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 4793px;
+    left: 38%;
+    position: absolute;
+}

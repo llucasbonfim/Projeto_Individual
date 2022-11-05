@@ -13,6 +13,11 @@ header {
     align-items: center;
 }
 
+header img {
+    left: 60%;
+    top: 4700px;
+}
+
 header li {
     display: inline-block;
     margin: 20px;
@@ -146,7 +151,7 @@ header ul a li {
     height: 10vh;
     position: absolute;
     left: 100px;
-    top: 4645px;
+    top: 4670px;
 }
 
 .footer .divcontato {
@@ -154,7 +159,7 @@ header ul a li {
     justify-content: flex-end;
     position: absolute;
     left: 80%;
-    top: 4650px;
+    top: 4660px;
     font-size: x-large;
 }
 
@@ -182,15 +187,11 @@ header ul a li {
     top: 4700px;
 }
 
-.final {
+.footer .final p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25vh;
-}
-
-.final p {
+    top: 4793px;
+    left: 38%;
     position: absolute;
-    top: 4800px;
-    left: 200px;
 }
