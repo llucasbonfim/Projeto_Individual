@@ -83,6 +83,21 @@
 
                 </select>
             </div>
+
+            <div class="campo">
+                <label for="">Operador:</label>
+                <select name="operador" id="sel_operador">
+                    
+                    <option value="0">-- SELECIONE UM OPERADOR --</option>
+                    <option value="1">PRICE</option>
+                    <option value="2">GHOST</option>
+                    <option value="3">SOAP</option>
+                    <option value="4">ROSE</option>
+                    <option value="5">SNOOP DOGG</option>
+                    <option value="6">MARA</option>
+
+                </select>
+            </div>
             <br><button onclick="cadastro()">Cadastre-se</button>
 
             <img src="../assets/bbb.png" width="200px" alt="">
@@ -131,6 +146,6 @@
         } else if (senha != confirmacao) {
             alert(`Sua senha está diferente da sua Confirmação de Senha!`)
             
-        } 
+        }
     }
 </script>
