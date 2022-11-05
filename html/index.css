@@ -28,6 +28,8 @@ header ul a li {
     align-items: center;
     font-size: 50px;
     background-color: #343A40;
+    width: 100%;
+    height: 100vh;
 }
 
 .divisao {
@@ -138,23 +140,57 @@ header ul a li {
     background-color: white;
 }
 
-.contato {
+.footer .contato {
     justify-content: flex-end;
+    width: 100px;
+    height: 10vh;
+    position: absolute;
+    left: 100px;
+    top: 4645px;
 }
 
-.divcontato {
+.footer .divcontato {
     display: flex;
     justify-content: flex-end;
-    
+    position: absolute;
+    left: 80%;
+    top: 4650px;
+    font-size: x-large;
+}
+
+.footer .social3 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 80%;
+    top: 4700px;
+}
+
+.footer .social2 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 70%;
+    top: 4700px;
+}
+
+.footer .social1 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 60%;
+    top: 4700px;
 }
 
 .final {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 25vh;
 }
 
-.social1 {
-    justify-content: flex-end;
-    align-items: flex-end;
+.final p {
+    position: absolute;
+    top: 4800px;
+    left: 200px;
 }
