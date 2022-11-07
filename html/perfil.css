@@ -35,24 +35,116 @@ header ul a li {
     background-color: #343A40;
 }
 
-.banner .container {
+.banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    top: 100px;
-    position: absolute;
+    font-size: 50px;
+    background-color: #343A40;
     width: 100%;
+    height: 100vh;
+}
+
+.divisao {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    content: '';
+    margin-top: 15px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #343A40;
 }
 
-.banner .imagem {
+.titulo1 {
+    margin-top: 15px;
+}
+.caixa1 {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+}
+
+.caixa {
+    margin: 15px 10px 0px 10px;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    position: absolute;
-    top: 300px;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #CED4DA;
+}
+
+.shoot {
+    margin: 50px 10px 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #CED4DA;
+}
+
+.caixa img {
+    margin-top: 40px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.caixa h4 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.caixa p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.shoot img {
+    margin-top: 40px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.shoot h4 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.shoot p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.arma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    background-color: #343A40;
+}
+
+.operador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .footer {
