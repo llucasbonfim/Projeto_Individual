@@ -1,0 +1,55 @@
+.footer {
+    width: 100%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+.contato {
+    justify-content: flex-end;
+    width: 100px;
+    height: 10vh;
+    position: absolute;
+    left: 100px;
+}
+
+.divcontato {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 80%;
+    font-size: x-large;
+    margin-top: 2%;
+}
+
+.social3 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 80%;
+    margin-top: 5%;
+}
+
+.social2 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 70%;
+    margin-top: 5%;
+}
+
+.social1 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 60%;
+    margin-top: 5%;
+}
+
+.final p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 38%;
+    position: absolute;
+    margin-top: 10%;
+}
