@@ -27,6 +27,11 @@ header ul a li {
     color: black;
 }
 
+header ul a li :hover {
+    border-bottom: solid 2px black;
+    transition: 0.3s;
+}
+
 .banner {
     display: flex;
     justify-content: space-around;
