@@ -23,59 +23,91 @@ header li {
     margin: 20px;
 }
 
+header ul a li {
+    color: black;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 5%;
+    background-color: #343A40;
+}
+
+.texto1 {
+    margin: 0;
+    font-size: 350%;
+    align-items: center;
+}
+
+.texto {
+    margin: 4;
+    font-size: 120%;
+}
+
+.completo {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10vh;
+}
+
+.img {
+    width: 50%;
+}
+
 .footer {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5%;
     background-color: white;
 }
 
-.footer .contato {
+.contato {
     justify-content: flex-end;
     width: 100px;
     height: 10vh;
     position: absolute;
     left: 100px;
-    top: 4670px;
 }
 
-.footer .divcontato {
+.divcontato {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     left: 80%;
-    top: 4660px;
     font-size: x-large;
+    margin-top: 2%;
 }
 
-.footer .social3 {
+.social3 {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     left: 80%;
-    top: 4700px;
+    margin-top: 5%;
 }
 
-.footer .social2 {
+.social2 {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     left: 70%;
-    top: 4700px;
+    margin-top: 5%;
 }
 
-.footer .social1 {
+.social1 {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     left: 60%;
-    top: 4700px;
+    margin-top: 5%;
 }
 
-.footer .final p {
+.final p {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4793px;
     left: 38%;
     position: absolute;
+    margin-top: 10%;
 }
