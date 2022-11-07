@@ -38,11 +38,13 @@ header ul a li {
     margin: 0;
     font-size: 350%;
     align-items: center;
+    color: white;
 }
 
 .texto {
-    margin: 4;
+    margin: 2;
     font-size: 120%;
+    color: white;
 }
 
 .completo {
